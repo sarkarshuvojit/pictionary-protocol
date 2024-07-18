@@ -1,0 +1,11 @@
+type Query {
+  getTrue: Boolean
+}
+
+type Mutation {
+  setTrue(newTrue: Boolean): Boolean
+}
+
+type Subscription {
+  trueUpdated: Boolean
+}
